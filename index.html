@@ -1,0 +1,307 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Ionicons CDN -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 1200px;
+            text-align: center;
+            position: relative;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            background-color: #fff;
+            color: #333;
+        }
+
+        table th, table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        form label, form input, form textarea, form button {
+            margin-bottom: 10px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px;
+            font-size: 18px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Adding background images to sections */
+        #home {
+            background: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L3JtNDUyLWYtMDE0LWJhY2tncm91bmRiLmpwZw.jpg') no-repeat center center/cover;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #about {
+            background: url('https://img.pikbest.com/wp/202343/watercolor-stain-vibrant-abstract-background-drawing-texture-with-purple-and-pink-stains_9977227.jpg!f305cw') no-repeat center center/cover;
+            min-height: 400px;
+        }
+
+        #projects {
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20231029/pngtree-background-texture-gradient-pattern-with-vibrant-purple-liquid-image_13779839.png') no-repeat center center/cover;
+            min-height: 400px;
+        }
+
+        #contact {
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20231029/pngtree-background-texture-gradient-pattern-with-vibrant-purple-liquid-image_13779839.png') no-repeat center center/cover;
+            min-height: 400px;
+        /* Project section styling */
+        .project {
+            margin-bottom: 20px;
+        }
+
+        /* Adding Ionicons */
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="ion-home icon"></i>Home</a></li>
+                <li><a href="#about"><i class="ion-person icon"></i>About</a></li>
+                <li><a href="#projects"><i class="ion-code-working icon"></i>Projects</a></li>
+                <li><a href="#contact"><i class="ion-email icon"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <table>
+            <tr>
+                <td><i class="ion-person icon"></i>Name</td>
+                <td>M ASHA SHINE</td>
+            </tr>
+            <tr>
+                <td><i class="ion-email icon"></i>Email</td>
+                <td><a href="mailto:mashashine2408@gmail.com">mashashine2408@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td><i class="ion-iphone icon"></i>Mobile</td>
+                <td>+91 8309326980</td>
+            </tr>
+            <tr>
+                <td><i class="ion-social-linkedin icon"></i>LinkedIn</td>
+                <td><a href="https://www.linkedin.com/in/m-asha-shine-813558280" target="_blank">Profile</a></td>
+            </tr>
+            <tr>
+                <td><i class="ion-social-github icon"></i>GitHub</td>
+                <td><a href="https://github.com/ashashine" target="_blank">Profile</a></td>
+            </tr>
+        </table>
+
+        <h2>Objective</h2>
+        <p>My objective is to obtain a position in a professional office environment where my skills are valued and can benefit the organization...</p>
+
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BTech (Computer Science and Engineering)</td>
+                    <td>Rajeev Gandhi Memorial College of Engineering and Technology</td>
+                    <td>76%</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Narayan Junior College</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Bhashyam High School</td>
+                    <td>92%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><i class="ion-code icon"></i>C Programming Language</li>
+            <li><i class="ion-monitor icon"></i>Good Knowledge of Front-End Development (HTML, CSS), Basics in JS</li>
+            <li><i class="ion-social-java icon"></i>Basic Knowledge in Java Language</li>
+        </ul>
+
+        <h2>Key Strengths</h2>
+        <ul>
+            <li><i class="ion-ios-construct icon"></i>Hard Working</li>
+            <li><i class="ion-ios-speedometer icon"></i>Self Motivating</li>
+            <li><i class="ion-ios-people icon"></i>Excellent Communication Skills</li>
+            <li><i class="ion-ios-lightbulb icon"></i>Problem-Solving Abilities</li>
+        </ul>
+        <h2>Hobbies</h2>
+        <ul>
+            <li><i class="ion-ios-book icon"></i>Reading</li>
+            <li><i class="ion-plane icon"></i>Traveling</li>
+            <li><i class="ion-camera icon"></i>Photography</li>
+            <li><i class="ion-ios-paper icon"></i>Blogging</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li><i class="ion-ios-chatbubbles icon"></i>English</li>
+            <li><i class="ion-ios-chatbubbles icon"></i>Hindi</li>
+            <li><i class="ion-ios-chatbubbles icon"></i>Telugu</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Hostel-Complaint-Raiser-</h3>
+            <a href= https://github.com/ashashine/Hostel-Complaint-Raiser.git >
+            <p>Description: Created a web page using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+            </a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Time-Table-scheduler</h3>
+            <a href=https://github.com/ashashine/Time-Table-Scheduler.git >
+            <p>Description: Developed a web page using HMTL.CSS and JavaScript to showcase my projects and skills.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 M ASHA SHINE. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            alert(`Thank you, ${name}! Your message has been received.\n\nEmail: ${email}\nMessage: ${message}`);
+            
+            // Clear the form
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+</body>
+</html>
